@@ -1,0 +1,53 @@
+{
+  "id": "ezd6fourhorsemen",
+  "title": "EZD6: The Four Horsemen",
+  "description": "A Foundry VTT System for The Four Horsemen, a historical and dark fantasy setting for EZD6",
+  "authors": [
+    {
+      "name": "Karl Agius",
+      "discord": "karl.agius"
+    }
+  ],
+  "url": "https://github.com/kagius/ezd6fourhorsemen",
+  "license": "LICENSE.txt",
+  "readme": "README.md",
+  "bugs": "https://github.com/kagius/ezd6fourhorsemen/issues",
+  "changelog": "CHANGELOG.md",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/ezd6fourhorsemen/assets/thumbnail.jpg",
+      "thumbnail": "systems/ezd6fourhorsemen/assets/thumbnail.jpg"
+    }
+  ],
+  "version": "0.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "packs": [],
+  "packFolders": [],
+  "socket": false,
+  "manifest": "Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
+  "download": "This must link to a .zip file of the current version",
+  "background": "systems/ezd6fourhorsemen/assets/cover.jpg",
+  "grid" :{
+    "distance": 5,
+    "grid.units": "ft"
+  },
+  "esmodules": [
+    "module/ezd6fourhorsemen.js"
+  ],
+  "styles": [
+    "ezd6fourhorsemen.css"
+  ],
+  "primaryTokenAttribute": "strikes",
+  "secondaryTokenAttribute": "stress",
+  "languages": [
+    {
+     "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}

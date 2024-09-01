@@ -1,0 +1,45 @@
+{
+	"TYPES": {
+		"Actor":{
+			"pc": "Adventurer",
+			"npc": "NPC",
+			"lackey": "Lackey",
+			"horse": "Horse"
+		},
+		"Item": {
+			"meleeweapon": "Weapon",
+			"armor": "Armor",
+			"shield": "Shield",
+			"feature": "Path Feature",
+			"inclination": "Inclination"
+		}
+	},
+	"EZD64H": {
+		"Name": "Name",
+		"Strikes": "Strikes",
+		"Stress": "Stress",
+		"HeroDice": "Hero Dice",
+		"StrikesToDeath": "Strikes: Dead!",
+		"StressToStrikes": "Stress: Take 1 strike",
+		"WeaponsEquipped":"Equipped Weapons",
+		"Features": "Path Features",
+		"ArmorWorn":"Equipped Armor",
+		"CreateButton": "Create",
+		"AddButton": "Add",
+		"EditButton": "Edit",
+		"DeleteButton": "Delete",
+		"ShowDescription": "Show description",
+		"StressDamage": "{actorName} took a strike from stress!",
+		"Death": "{actorName} died!",
+		"RollArmorSave": "Roll armor save",
+		"RollMiraculousSave": "Roll miraculous save",
+		"Equipment": "Equipment",
+		"Equip": "Equip",
+		"Unequip": "Unequip",
+		"Discard": "Discard",
+		"Reload": "Reload",
+		"Reloaded": "{actorName} reloaded a {itemName}",
+		"Melee": "Melee",
+		"Ranged": "Ranged"
+	}
+}

@@ -1,0 +1,28 @@
+.sheet-body, .sheet-body section {
+	display:block;
+	width:100%;
+	float:left;
+	clear:right;
+	height: auto;
+}
+
+.sheet-body div.stat {
+	width:33.3%;
+	display:block;
+	padding:1em;
+	float:left;
+	text-align: center;
+}
+
+.sheet-body div.stat input {
+	font-size: 300%;
+	width: 1em;
+	height: 1.5em;
+	border:none;
+	background: transparent;
+}
+
+.pc .sheet-body .headertext {
+	text-align: center;
+	font-size:larger;
+}

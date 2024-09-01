@@ -1,0 +1,85 @@
+{
+    "Actor": {
+        "types": ["pc", "npc", "lackey", "horse"],
+        "templates": {
+            "base": {
+                "strikes": {
+                    "value": 0,
+                    "max": 3
+                },
+                "toBeHit": 4,
+                "resistance": 1
+            }
+        },
+        "npc": {
+            "templates": ["base"],
+            "toBeHit": 4,
+            "resistance": 1,
+            "description": ""
+        },
+        "pc": {
+            "templates": ["base"],
+            "stress": {
+                "value": 0,
+                "max": 3
+            },
+            "tobehit": 3,
+            "herodice": {
+                "value": 1,
+                "max": 1
+            },
+            "miraculoussave": 6
+        }
+    },
+    "Item": {
+        "types": [
+            "weapon",
+            "armor",
+            "shield",
+            "equipment",
+            "feature",
+            "inclination"
+        ],
+        "templates": {
+            "equippable": {
+                "isEquipped": false,
+                "isEquippable": true
+            },
+            "base": {
+                "description": ""
+            }
+        },
+        "weapon": {
+            "templates": ["equippable", "base"],
+            "crit": 6,
+            "isMasterwork": false,
+            "isTwoHanded": false,
+            "isMelee": true,
+            "isRanged": false,
+            "isBlackPowder": false,
+            "isLoaded":true,
+            "range":0
+        },
+        "armor": {
+            "templates": ["equippable", "base"],
+            "save": 6,
+            "isMasterwork": false,
+            "allowTricks": true,
+            "allowRascalBoon":true
+        },
+        "shield": {
+            "templates": ["equippable", "base"]
+        },
+        "feature":{
+            "templates": ["base"],
+            "key":""
+        },
+        "inclination":{
+            "templates": ["base"],
+            "key":""
+        },
+        "equipment":{
+            "templates": ["equippable", "base"]
+        }
+    }
+}

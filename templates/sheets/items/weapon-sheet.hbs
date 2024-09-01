@@ -1,0 +1,47 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64" class="charimage" />
+
+        <div class="header-details">
+            <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{localize 'EZD64H.Name'}}" /></h1>
+        </div>
+    </header>
+    <section>
+        <div>
+            <label>
+                <input name="system.isMasterwork" type="checkbox" {{checked system.isMasterwork}} />
+                {{localize 'IsMasterwork'}}
+            </label>
+        </div>
+        <div>
+            <label>
+                <input name="system.isMelee" type="checkbox" {{checked system.isMelee}} />
+                {{localize 'IsMelee'}}
+            </label>
+        </div>
+        <div>
+            <label>
+                <input name="system.isTwoHanded" type="checkbox" {{checked system.isTwoHanded}} />
+                {{localize 'IsTwoHanded'}}
+            </label>
+        </div>
+        <div>
+            <label>
+                <input name="system.isRanged" type="checkbox" {{checked system.isRanged}} />
+                {{localize 'IsRanged'}}
+            </label>
+        </div>
+        <div>
+            <label>
+                <input name="system.isBlackPowder" type="checkbox" {{checked system.isBlackPowder}} />
+                {{localize 'IsBlackPowder'}}
+            </label>
+        </div>
+        <div>
+            <label>
+                <input name="system.isLoaded" type="checkbox" {{checked system.isLoaded}} />
+                {{localize 'IsLoaded'}}
+            </label>
+        </div>
+    </section>
+</form>
